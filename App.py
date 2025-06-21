@@ -48,6 +48,10 @@ import plotly.express as px #to create visualisations at the admin session
 import nltk
 nltk.data.path.append('./nltk_data')
 
+nltk.download('stopwords')
+nltk.download('punkt')
+
+
 
 
 
