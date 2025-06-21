@@ -434,4 +434,6 @@ def insert_user_data(name, email, resume_score, timestamp, page_no,
             else:
                 st.error("Wrong ID & Password Provided")
 
+
+if __name__ == '__main__':
     run()
